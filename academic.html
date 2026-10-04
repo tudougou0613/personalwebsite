@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Academic Profile · PotatoDog</title>
+    <meta name="description" content="关于韦雨佳。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?translation-scope-114" />
+  </head>
+  <body class="page-inner page-about page-academic">
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="topbar">
+      <a class="logo" href="index.html">POTATODOG</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="index.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z" />
+          </svg>
+          <span>主页</span>
+        </a>
+        <a href="about.html" aria-current="page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="8" r="3.2" />
+            <path d="M5.5 19.2c1.2-3 4-4.7 6.5-4.7s5.3 1.7 6.5 4.7" />
+          </svg>
+          <span>关于</span>
+        </a>
+        <a href="works.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <rect x="4" y="5" width="16" height="14" rx="2" />
+            <path d="M8 9h8M8 13h5" />
+          </svg>
+          <span>作品</span>
+        </a>
+      </nav>
+      <button class="language-toggle" type="button" aria-label="Switch to English" lang="en">EN</button>
+    </header>
+
+    <div class="banner">
+      <div class="banner-title">
+        <h1 class="about-banner-poem"><span>一片树林里分出两条路——</span><span>而我选择了人迹更少的一条，</span><span class="poem-final">从此决定了我一生的道路。</span></h1>
+        <p class="poem-source">— 罗伯特·弗罗斯特 ·《未选择的路》</p>
+      </div>
+      <div class="wave-wrap" aria-hidden="true">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+          <defs>
+            <path id="gentle-wave" d="m -160,44.4 c 30,0 58,-18 87.7,-18 30.3,0 58.3,18 87.3,18 30,0 58,-18 88,-18 30,0 58,18 88,18 l 0,34.5 -351,0 z"></path>
+          </defs>
+          <g class="parallax">
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="0"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="3"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="6"></use>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="layout" id="main">
+      <aside class="sidebar">
+        <img class="avatar" src="assets/avatar-character.jpg" alt="韦雨佳的头像" width="148" height="148" />
+        <h2>韦雨佳</h2>
+        <p class="bio">PhD/Vtuber/Gamer</p>
+        <div class="social-links" aria-label="社交平台">
+          <button class="social-button social-email" type="button" data-copy-email="yujiawei20032001@gmail.com" title="复制邮箱" aria-label="复制邮箱"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg></button>
+          <a class="social-button social-bilibili" href="https://space.bilibili.com/1472623179" target="_blank" rel="noopener noreferrer" title="B站" aria-label="B站"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="3"/><path d="m7 3 3 4m7-4-3 4M8 12v4m8-4v4"/></svg></a>
+          <a class="social-button social-rednote" translate="no" href="https://www.xiaohongshu.com/user/profile/66b4f20d000000001d0315da?xsec_token=ABp3HWjF4RAVb65QNgbdO6PsRhr-Y3VeYA6TBN5Xz-QTk%3D&amp;xsec_source=pc_search" target="_blank" rel="noopener noreferrer" title="小红书" aria-label="小红书"><span aria-hidden="true">小红书</span></a>
+        </div>
+        <div class="sidebar-music" aria-label="音乐播放器">
+          <p class="sidebar-music-title">除了春天爱情和樱花</p>
+          <p class="sidebar-music-artist">HIGH4 · IU</p>
+          <audio autoplay preload="metadata" src="assets/spring-love-cherry-blossoms.mp3"></audio>
+          <div class="music-controls">
+            <button class="music-play" type="button" aria-label="播放" aria-pressed="false">▶</button>
+            <div class="music-adjustments">
+              <div class="music-time" aria-label="播放时间"><span class="music-current">0:00</span><span aria-hidden="true"> / </span><span class="music-duration">--:--</span></div>
+              <label class="music-volume-row"><span class="music-volume-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" stroke-linecap="round"/></svg></span><input class="music-volume" type="range" min="0" max="1" step="0.01" value="0.2" aria-label="音量" /></label>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+
+      <main class="content about-detail"><a class="back-to-about" href="about.html">← 返回关于我</a><section class="article about-panel academic-profile" id="academic" aria-labelledby="academic-title">
+<svg class="academic-decoration" viewBox="0 0 180 120" fill="none" aria-hidden="true"><path d="M85 35c-17-10-38-10-53-4v63c15-6 36-6 53 4 17-10 38-10 53-4V31c-15-6-36-6-53 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M85 35v63M44 47l27 4M44 60l27 4M44 73l27 4M99 51l27-4M99 64l27-4M99 77l27-4M147 88c-6-24-2-45 14-63" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M150 63c-14-2-18-11-16-18 11 1 17 9 16 18ZM154 48c1-12 9-17 18-16-1 10-7 16-18 16ZM147 79c-12-1-18-8-17-15 11 0 17 5 17 15Z" fill="currentColor" opacity=".5"/><path d="m21 18 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z" fill="currentColor"/></svg>
+<p class="about-kicker">ACADEMIC PROFILE / YUJIA WEI</p>
+<h2 id="academic-title">学术档案</h2>
+<p class="lead">比较适合学术用途，欢迎希望进一步了解我的研究者们查阅 (｡･ω･｡)ﾉ♡</p>
+<details class="profile-details" id="profile"><summary><span class="profile-open">展开我的Profile（其实这里是英文简历的中文在线版）</span><span class="profile-close">收起我的 Profile</span><span class="profile-toggle" aria-hidden="true">＋</span></summary><div class="profile-details-body"><nav class="academic-nav" aria-label="学术档案目录"><a href="#education">学习经历</a><a href="#publications">论文</a><a href="#research">研究经历</a><a href="#projects">个人项目</a><a href="#internships">实习经历</a><a href="#skills">方法与技能</a><a class="guide-back" href="#academic">返回</a></nav>
+<section class="cv-section" id="education"><h3>学习经历 <small>EDUCATION</small></h3>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>布里斯托大学 · 社会学博士</h4><time>2026.09 — 2030.06（预计）</time></div><p>在读博士生。获布里斯托大学与国家留学基金委（CSC）联合全额奖学金。</p></div>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>隆德大学 · 全球研究硕士</h4><time>2024.09 — 2026.06</time></div><p>成绩：Distinction。获 Lund University Global Scholarship（£10,400）。</p><p>主要课程：数字民族志（A）、社会科学研究设计（A）。</p><p>毕业论文：<span lang="en">Traveling Through the Gulf: Tourism Geopolitics among Chinese Tourists in Travel Narratives</span>（Distinction）。</p></div>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>中国人民大学 · 国际政治学士</h4><time>2019.09 — 2023.06</time></div><p>成绩：85.1/100。参与全球治理与国际组织人才培养项目。</p><p>主要课程：传播学理论（89）、社会学概论（93）。</p><p>毕业论文：日本“印太战略”的历史演变、特点总结与前景预测（3.7/4.0）。</p></div>
+</section>
+<section class="cv-section" id="publications"><h3>论文 <small>PUBLICATIONS</small></h3><div class="cv-entry"><p class="publication-citation" lang="en">WEI, Y., &amp; Zhang, J. (2025). Silence or Not: Narrative Analysis of Women’s Voices in Cross-border Forced Marriages.</p><p><em lang="en">The Asian Journal of Women’s Studies</em> · 在审（SSCI Q2）。</p></div></section>
+<section class="cv-section" id="research"><h3>研究经历 <small>RESEARCH EXPERIENCE</small></h3>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>乙女游戏同人创作的社会实践：以《恋与深空》为例的数字民族志</h4><time>2025.02 — 2025.06</time></div><p class="cv-role">研究者 · 导师：Dr. Lena Karlsson（传播学系）</p><p>运用数字民族志与定性分析，研究玩家如何通过同人创作协商情感关系、社区互动与共享文化实践，并探索平台功能与治理对参与、创作和情感社群形成的影响。</p></div>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>边疆与山海相遇：中国边境城市的外交实践——广西东兴案例</h4><time>2024.09 — 2025.09</time></div><p class="cv-role">第二作者 · 合作者：Junyi NONG（南洋理工大学）、QingZhe FENG（广西南宁社会科学院）</p><p>通过话语分析与半结构访谈，研究地理身份与战略位置如何塑造文化叙事、地方身份与跨境交流的媒介呈现。拟投稿 <em>Cities</em>（SSCI Q1）。</p></div>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>野生生物保护学会（WCS）· 广州</h4><time>2023.12 — 2024.06</time></div><p class="cv-role">研究助理</p><p>分析政策文件、环保活动与 NGO 媒介内容，研究野生动物保护，尤其是象牙贸易相关话语的跨国传播；完成约 20,000 字报告，结合话语分析与政策评估支持内部知识交流及公众传播。</p></div>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>“一带一路”沿线国家绿色发展指数 · 中国人民大学</h4><time>2021.10 — 2022.02</time></div><p class="cv-role">团队负责人 · 导师：刘旭、许勤华（国际关系学院）</p><p>基于 45 项指标构建覆盖 137 个国家的绿色发展指数，收集和比较 2008—2021 年数据。建设数据库，以第一作者完成约 23,000 字报告，并担任成果汇报主讲人。</p></div></section>
+<section class="cv-section" id="projects"><h3>个人项目 <small>INDIVIDUAL PROJECTS</small></h3>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>乙女同人游戏 · Locked Room with Caleb</h4><time>2025.04 — 2025.06</time></div><p class="cv-role">主设计师与制作人</p><p>独立设计、编剧与制作游戏，探索玩家与角色关系、虚拟恋爱及情感参与。制作与推广实体周边，将数字亲密关系延伸到物质文化实践；通过小红书宣传吸引近 5,000 名玩家。</p></div>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>互动桌宠设计</h4><time>2025.06 — 2025.08</time></div><p class="cv-role">设计师与制作人</p><p>以乙女游戏角色为基础开发桌宠应用，通过触摸反馈、定时提醒等互动功能探索游戏之外的日常陪伴。应用公开提供下载，吸引近 1,000 名活跃用户。</p></div></section>
+<section class="cv-section" id="internships"><h3>实习经历 <small>INTERNSHIP EXPERIENCE</small></h3>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>Intellisia Institute · 广州</h4><time>2021.08 — 2022.02</time></div><p class="cv-role">编辑</p><p>通过文献分析、数据收集与比较研究开展国际议题研究。撰写 20 篇长文（共约 40,000 字），向公众解释欧盟气候政策等复杂政策议题。</p></div>
+<div class="cv-entry"><div class="cv-entry-heading"><h4>中国企业家俱乐部 · 企业绿色发展研究院</h4><time>2023.03 — 2023.06</time></div><p class="cv-role">政策研究实习生 · 北京</p><p>协助北京与海口研究院日常运营、数据收集及可持续发展研究，参与海口年度峰会推广与利益相关方沟通。</p></div></section>
+<section class="cv-section" id="skills"><h3>方法与技能 <small>METHODS &amp; SKILLS</small></h3><dl class="cv-skills"><div><dt>研究方法</dt><dd>民族志观察、深度访谈、定性话语分析、定量内容分析</dd></div><div><dt>研究软件</dt><dd>Python · MAXQDA · SPSS</dd></div><div><dt>游戏开发</dt><dd>Godot · RPGMaker</dd></div><div><dt>语言</dt><dd>中文（母语）· 日语 JLPT N2（167/180）· IELTS 7.5</dd></div></dl></section>
+</div></details>
+<div class="academic-resources"><a class="cv-download-link" href="assets/Yujia-Wei-CV-English.docx" download="Yujia-Wei-CV-English.docx">下载英文简历 <span>English CV · DOCX</span> <span aria-hidden="true">↓</span></a><div class="academic-email"><span>学术交流</span><button class="email-text" type="button" data-copy-email="xe26260@bristol.ac.uk">xe26260@bristol.ac.uk</button></div></div>
+</section>
+<section class="article about-panel academic-notes" aria-labelledby="academic-notes-title">
+<svg class="academic-decoration" viewBox="0 0 180 120" fill="none" aria-hidden="true"><path d="M45 59h67v16c0 20-12 30-33 30S45 95 45 75V59Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M112 64h10c20 0 20 25 0 25h-14M34 107h94M65 45c-9-12 10-16 1-28M85 44c-8-11 9-17 2-27" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M138 43c-15-1-15-16-4-16-5-13 10-20 16-9 7-11 22-3 16 9 12 1 11 16-3 17 6 13-9 21-15 9-7 10-20 2-10-10Z" stroke="currentColor" stroke-width="1.2"/><circle cx="150" cy="36" r="4" fill="currentColor" opacity=".5"/><path d="m28 28 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" fill="currentColor" opacity=".5"/></svg>
+  <p class="about-kicker">RESEARCH NOTES</p>
+  <h2 id="academic-notes-title">学术碎碎念</h2>
+  <p class="lead">比较适合想了解我最近在思考什么的大家，欢迎进来看看 (๑˃ᴗ˂)ﻭ</p>
+  <details class="profile-details notes-details">
+    <summary><span class="profile-open">展开我的碎碎念</span><span class="profile-close">收起我的碎碎念</span><span class="profile-toggle" aria-hidden="true">＋</span></summary>
+    <div class="profile-details-body">
+      <!-- 在这里添加你的学术碎碎念。 -->
+      <p>我的研究兴趣主要是数字社会学。当今我们坐落于一个后数字的时代，数字技术与人深深地纠缠在一起，无法分割。因此我对日益发展的技术与社会的关系始终怀有好奇与敬畏之心。</p>
+      <p>特别的，我关注后数字时代的人机互动以及其中涉及到的情动，物质性与空间性。</p>
+      <p>我最近正在关注的是直播中主播互动，游戏中的后数字亲密关系。</p>
+      <p><strong>博士进度 1/4：</strong>正在处于理论框架的完善阶段。</p>
+      <p><strong>学术目标：</strong>在整理好研究内容之后再用衍生的idea参加会议（0/2）。</p>
+      <div class="memory-divider" aria-hidden="true"><span>✧</span></div>
+      <section class="lund-memory" aria-labelledby="lund-memory-title">
+        <p class="memory-kicker">A LITTLE PIECE OF LUND</p>
+        <h3 id="lund-memory-title">留在隆德的时光</h3>
+        <p>我最喜欢的大学是瑞典的隆德大学。这也是我学术之路开始的地方，我在里面收获了知识，勇气，鼓励以及受用一生的友谊。</p>
+        <div class="lund-gallery"><a class="lund-photo" href="assets/lund-1.jpeg" target="_blank" rel="noopener" aria-label="查看原图：夜色中的教堂"><img src="assets/lund-1.jpeg" alt="夜色中的教堂" loading="lazy" /></a><a class="lund-photo" href="assets/lund-2.jpeg" target="_blank" rel="noopener" aria-label="查看原图：雪中的隆德大学建筑"><img src="assets/lund-2.jpeg" alt="雪中的隆德大学建筑" loading="lazy" /></a><a class="lund-photo" href="assets/lund-3.jpeg" target="_blank" rel="noopener" aria-label="查看原图：雪地上的金色夕阳"><img src="assets/lund-3.jpeg" alt="雪地上的金色夕阳" loading="lazy" /></a><a class="lund-photo" href="assets/lund-4.jpeg" target="_blank" rel="noopener" aria-label="查看原图：月光下的街道"><img src="assets/lund-4.jpeg" alt="月光下的街道" loading="lazy" /></a><a class="lund-photo" href="assets/lund-5.jpeg" target="_blank" rel="noopener" aria-label="查看原图：雪夜里的圣诞树与建筑"><img src="assets/lund-5.jpeg" alt="雪夜里的圣诞树与建筑" loading="lazy" /></a><a class="lund-photo" href="assets/lund-6.jpeg" target="_blank" rel="noopener" aria-label="查看原图：雪夜中的广场"><img src="assets/lund-6.jpeg" alt="雪夜中的广场" loading="lazy" /></a><a class="lund-photo" href="assets/lund-7.jpeg" target="_blank" rel="noopener" aria-label="查看原图：夜晚的有轨电车"><img src="assets/lund-7.jpeg" alt="夜晚的有轨电车" loading="lazy" /></a></div>
+      </section>
+      <div class="memory-divider" aria-hidden="true"><span>✧</span></div>
+      <section class="lund-memory bristol-memory" aria-labelledby="bristol-memory-title">
+        <p class="memory-kicker">A NEW CHAPTER IN BRISTOL</p>
+        <h3 id="bristol-memory-title">此刻，在布里斯托</h3>
+        <p>我虽然是老留子了，但还是一个超级超级新的英留。当下我还在努力探索英国！先从布里斯托这个城市开始吧，但是这里的陡坡总是我出发的阻碍。</p>
+        <div class="lund-gallery"><a class="lund-photo" href="assets/bristol-memory-1.jpeg" target="_blank" rel="noopener" aria-label="查看原图：布里斯托街头的涂鸦"><img src="assets/bristol-memory-1.jpeg" alt="布里斯托街头的涂鸦" loading="lazy" /></a><a class="lund-photo" href="assets/bristol-memory-2.jpeg" target="_blank" rel="noopener" aria-label="查看原图：蓝天下的布里斯托街道与塔楼"><img src="assets/bristol-memory-2.jpeg" alt="蓝天下的布里斯托街道与塔楼" loading="lazy" /></a><a class="lund-photo" href="assets/bristol-memory-3.jpeg" target="_blank" rel="noopener" aria-label="查看原图：阳光下的柱廊建筑"><img src="assets/bristol-memory-3.jpeg" alt="阳光下的柱廊建筑" loading="lazy" /></a><a class="lund-photo" href="assets/bristol-memory-4.jpeg" target="_blank" rel="noopener" aria-label="查看原图：雨天的布里斯托街道"><img src="assets/bristol-memory-4.jpeg" alt="雨天的布里斯托街道" loading="lazy" /></a></div>
+      </section>
+    </div>
+  </details>
+</section></main>
+    </div>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 韦雨佳</p>
+    </footer>
+    <script src="script.js?title-117"></script>
+  </body>
+</html>

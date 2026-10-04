@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio · PotatoDog</title>
+    <meta name="description" content="韦雨佳的写作与绘画作品集。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?translation-scope-114" />
+  </head>
+  <body class="page-inner page-about page-personal">
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="topbar">
+      <a class="logo" href="index.html">POTATODOG</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="index.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z" />
+          </svg>
+          <span>主页</span>
+        </a>
+        <a href="about.html" aria-current="page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="8" r="3.2" />
+            <path d="M5.5 19.2c1.2-3 4-4.7 6.5-4.7s5.3 1.7 6.5 4.7" />
+          </svg>
+          <span>关于</span>
+        </a>
+        <a href="works.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <rect x="4" y="5" width="16" height="14" rx="2" />
+            <path d="M8 9h8M8 13h5" />
+          </svg>
+          <span>作品</span>
+        </a>
+      </nav>
+      <button class="language-toggle" type="button" aria-label="Switch to English" lang="en">EN</button>
+    </header>
+
+    <div class="banner">
+      <div class="banner-title">
+        <h1 class="about-banner-poem"><span>一千个蝴蝶的骸骨睡在我的墙上，</span><span>一大群年轻的微风渡过河流。</span></h1>
+        <p class="poem-source">— 洛尔迦 ·《星的时刻》</p>
+      </div>
+      <div class="wave-wrap" aria-hidden="true">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+          <defs>
+            <path id="gentle-wave" d="m -160,44.4 c 30,0 58,-18 87.7,-18 30.3,0 58.3,18 87.3,18 30,0 58,-18 88,-18 30,0 58,18 88,18 l 0,34.5 -351,0 z"></path>
+          </defs>
+          <g class="parallax">
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="0"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="3"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="6"></use>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="layout" id="main">
+      <aside class="sidebar">
+        <img class="avatar" src="assets/avatar-character.jpg" alt="韦雨佳的头像" width="148" height="148" />
+        <h2>韦雨佳</h2>
+        <p class="bio">PhD/Vtuber/Gamer</p>
+        <div class="social-links" aria-label="社交平台">
+          <button class="social-button social-email" type="button" data-copy-email="yujiawei20032001@gmail.com" title="复制邮箱" aria-label="复制邮箱"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg></button>
+          <a class="social-button social-bilibili" href="https://space.bilibili.com/1472623179" target="_blank" rel="noopener noreferrer" title="B站" aria-label="B站"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="3"/><path d="m7 3 3 4m7-4-3 4M8 12v4m8-4v4"/></svg></a>
+          <a class="social-button social-rednote" translate="no" href="https://www.xiaohongshu.com/user/profile/66b4f20d000000001d0315da?xsec_token=ABp3HWjF4RAVb65QNgbdO6PsRhr-Y3VeYA6TBN5Xz-QTk%3D&amp;xsec_source=pc_search" target="_blank" rel="noopener noreferrer" title="小红书" aria-label="小红书"><span aria-hidden="true">小红书</span></a>
+        </div>
+        <div class="sidebar-music" aria-label="音乐播放器">
+          <p class="sidebar-music-title">除了春天爱情和樱花</p>
+          <p class="sidebar-music-artist">HIGH4 · IU</p>
+          <audio autoplay preload="metadata" src="assets/spring-love-cherry-blossoms.mp3"></audio>
+          <div class="music-controls">
+            <button class="music-play" type="button" aria-label="播放" aria-pressed="false">▶</button>
+            <div class="music-adjustments">
+              <div class="music-time" aria-label="播放时间"><span class="music-current">0:00</span><span aria-hidden="true"> / </span><span class="music-duration">--:--</span></div>
+              <label class="music-volume-row"><span class="music-volume-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" stroke-linecap="round"/></svg></span><input class="music-volume" type="range" min="0" max="1" step="0.01" value="0.2" aria-label="音量" /></label>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+
+      <main class="content about-detail"><a class="back-to-about" href="works.html">← 返回作品</a><section class="article about-panel" id="portfolio">
+<h2>不定期更新的画作 (｡･ω･｡)ﾉ♡</h2>
+<details class="profile-details">
+<summary><span><span class="profile-open">展开我的手绘作品</span><span class="profile-close">收起我的手绘作品</span></span><span class="profile-toggle" aria-hidden="true">＋</span></summary>
+<div class="profile-details-body"><div class="hand-art-gallery">
+<figure><img src="assets/hand-drawing-01.jpeg" alt="手绘作品 1" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-02.jpeg" alt="手绘作品 2" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-03.jpeg" alt="手绘作品 3" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-04.jpeg" alt="手绘作品 4" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-05.jpeg" alt="手绘作品 5" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-06.jpeg" alt="手绘作品 6" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-07.jpeg" alt="手绘作品 7" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-08.jpeg" alt="手绘作品 8" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-09.jpeg" alt="手绘作品 9" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-10.jpeg" alt="手绘作品 10" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-11.jpeg" alt="手绘作品 11" loading="lazy" /></figure>
+<figure><img src="assets/hand-drawing-12.jpeg" alt="手绘作品 12" loading="lazy" /></figure>
+</div></div>
+</details>
+<details class="profile-details">
+<summary><span><span class="profile-open">展开我的板绘作品</span><span class="profile-close">收起我的板绘作品</span></span><span class="profile-toggle" aria-hidden="true">＋</span></summary>
+<div class="profile-details-body"><div class="hand-art-gallery digital-art-gallery">
+<figure><img src="assets/digital-art-02.jpeg" alt="板绘作品 2" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-03.jpeg" alt="板绘作品 3" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-01.jpeg" alt="板绘作品 1" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-04.jpeg" alt="板绘作品 4" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-05.jpeg" alt="板绘作品 5" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-06.jpeg" alt="板绘作品 6" loading="lazy" /></figure>
+<div class="digital-art-pair"><figure><img src="assets/digital-art-pair-left.jpeg" alt="银发角色彩插" loading="lazy" /></figure><figure><img src="assets/digital-art-pair-right.jpeg" alt="红发角色彩插" loading="lazy" /></figure></div>
+<figure><img src="assets/digital-art-08.jpeg" alt="板绘作品 8" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-09.jpeg" alt="板绘作品 9" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-10.jpeg" alt="板绘作品 10" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-11.jpeg" alt="板绘作品 11" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-12.jpeg" alt="板绘作品 12" loading="lazy" /></figure>
+<figure><img src="assets/digital-art-13.jpeg" alt="板绘作品 13" loading="lazy" /></figure>
+</div></div>
+</details>
+</section>
+<section class="article about-panel" id="writing">
+<h2>不定期更新的文字 (๑˃ᴗ˂)ﻭ</h2>
+<details class="profile-details">
+<summary><span><span class="profile-open">展开《长路归家》 - 末世公路文 with 夏以昼</span><span class="profile-close">收起《长路归家》 - 末世公路文 with 夏以昼</span></span><span class="profile-toggle" aria-hidden="true">＋</span></summary>
+<div class="profile-details-body">
+<details class="profile-details chapter-details">
+<summary><span>第一章</span><span class="profile-toggle" aria-hidden="true">＋</span></summary>
+<div class="profile-details-body prose-reading" translate="no">
+<p>末世比想象中来得快。</p>
+<p>当我登上夏以昼的飞行器时，海水几乎要淹没临空老宅的屋檐。</p>
+<p>浑浊的浪头一次次拍打着飞行器的底部，像是在催促我们离开。</p>
+<p>他一边拉着操纵杆朝天空飞去，一边认真地询问着我的安危。</p>
+<p>“我没什么事，只是很多东西都没能带出来。”</p>
+<p>我假装懊恼，煞有介事地盘点着那些被汪洋吞噬掉的死物。</p>
+<p>太阳果抱枕，飞行器模型，相册......</p>
+<p>老实说，我并不在乎那些旧的物什。</p>
+<p>事在人为，只要和夏以昼在一起，无论在哪里，那些被弄丢的回忆总能被找回来。</p>
+<p>但是现在，我只是故意地、想麻烦我无所不能的哥哥，帮我解决不合时宜的小烦恼。</p>
+<p>“没关系，我们之后还会有很多值得收藏的东西。如果你还是喜欢以前的，那等水退了，哥哥再带你回来找。”他说。</p>
+<p>多完美的回应。</p>
+<p>每一次，夏以昼给我的答案都能让我无比心安。</p>
+<p>要知道，这种感觉是会上瘾的。它或许真的能够填补我心里空洞洞的地方。</p>
+<p>我不想承认我总是在麻烦他、总是在依赖他，但是我确实需要这样回应。</p>
+<p>就像我一次又一次地触碰湖面，它会不厌其烦地给我变出一圈圈好看的涟漪。</p>
+<p>“那说好了，等水退了，一定要再回来找找。”我任性地说，好像洪水一定会退去一样。</p>
+<p>见到我对他的回答很满意，夏以昼腾出手摸了摸我的头。</p>
+<p>啧...摸头可不是拉勾，这样会长不高的。</p>
+<p>我推了推他的手，不乐意地哼哼。</p>
+<p>他失笑：“那，妹妹大人，现在你想去哪里？”</p>
+<p>这个问题很难办——</p>
+<p>我们还能去哪里呢？</p>
+<p>我扭过头朝窗外看去。</p>
+<p>临空市被海水切割得支离破碎。</p>
+<p>远处的烟囱，属于曾经盛极一时的芯核开发工厂。</p>
+<p>它如今只剩下半截沉默地伫立在水面之上，像是一个墓碑。</p>
+<p>亲爱的读者，或许只有身在此处的我，才能清晰地望见墓碑上的名字——</p>
+<p>那是全体人类的名字。</p>
+<p>人类曾以为自己能够掌控一切，却忘了向这个世界索取的每一分馈赠，都终有一天需要偿还。</p>
+<div class="prose-break" aria-hidden="true">✧</div>
+<p>看着眼前的这一切，我忽然觉得“去哪里”这件事，并没有那么理所当然。</p>
+<p>末世之前，人类总以为自己足够强大，任何一个地方都可以抵达。</p>
+<p>可如今，地图上那些熟悉的坐标正在一个个失去意义。</p>
+<p>我们似乎丢掉了做选择的权利。</p>
+<p>我盯着窗外发了一会儿呆，小声说：“不知道。”</p>
+<p>夏以昼没有催我。</p>
+<p>他只是调整了飞行器的航向，让它朝着更高的云层升去。</p>
+<p>“那就慢慢想。”他的声音很轻，像是在说一件再普通不过的事情：“反正我们有时间。”</p>
+<p>“况且，如果这个世界没有想去地方，我们还能一起到下一个世界里去。”</p>
+<p>我忍不住看向他：“夏以昼，你是不是对末世有什么误解？”</p>
+<p>“嗯？”</p>
+<p>“现在外面可是世、界、末、日。”</p>
+<p>他侧过脸看我，眼底带着一点笑意：“所以呢？”</p>
+<p>“……”我一时语塞。</p>
+<p>所以应该慌张，应该害怕，应该为失去的一切感到难过。</p>
+<p>可是坐在夏以昼身边，我竟然很难产生那些想法。</p>
+<p>飞行器穿过厚重的云层。</p>
+<p>阳光短暂地照进舷窗，将漂浮在海面上的残骸映出一层浅金色。</p>
+<p>很奇怪。</p>
+<p>明明世界已经毁掉了一大半，却依然会有这么好的天气。</p>
+<div class="prose-break" aria-hidden="true">✧</div>
+<p>飞行了不知道多久，我们降落了。</p>
+<p>当脚再一次踏上厚实的大地的时候，我感觉很不真切。</p>
+<p>“哇塞，原来水还没有淹到这里！”我蹦了蹦，随口和夏以昼说。</p>
+<p>“嗯，我们应该是到欧洲了。”他熟练地关好飞机舱门。</p>
+<p>“什么？！欧洲？”我瞪大眼睛，四处张望着眼前陌生的土地。</p>
+<p>真可笑，没想到第一次出国，竟然是在世界末日。</p>
+<p>我曾经想过很多次，如果有一天来到这片瑰丽的土地，我会做什么。</p>
+<p>我也想过，和夏以昼来到这里，我们会一起做什么。</p>
+<p>石板路上缓慢驶过的马车，百年教堂投下的钟声，沿街盛开的花窗......</p>
+<p>“你去哪里？”夏以昼在我身后叫住我。</p>
+<p>好像都没有了，好像都没有了。</p>
+<p>我向前奔跑着，不顾一切地奔跑着，想看看这曾经憧憬过的地方。</p>
+<p>末世好像把我的愿望打碎了，然后随意丢弃在这片土地上。</p>
+<p>眼前只有被海风吹得斑驳的建筑，空荡的公路，以及更远处沉默的废墟。</p>
+<p>“注意安全！”夏以昼追上来，拉住我的手：“突然跑成这样，摔倒了怎么办？”</p>
+<p>他的手很大，也很暖和。那种心安的感觉又回来了。</p>
+<p>“哥哥。”</p>
+<p>我看着远处陌生的天空，晃了晃他的手：“这里还会有海啸吗？”</p>
+<p>夏以昼停顿了一下：“唔，海啸中心在太平洋，这里受到的波及比较小，所以没有被淹没。但是家家有本难念的经，这里也有自己的灾变。”</p>
+<p>我顺着他的视线望去，又一阵风吹过，好像带走了最后一点属于人类的痕迹——</p>
+<p>这片土地也曾经历过一场漫长的告别。</p>
+<p>“这里的人呢？”</p>
+<p>“大部分撤离了。”</p>
+<p>“去了哪里？”</p>
+<p>夏以昼抬头，看向北方。</p>
+<p>“北欧。”</p>
+<p>“北欧？”</p>
+<p>“那里建立了目前最大的幸存者聚集区。”</p>
+<p>他从大衣的口袋里掏出通讯器，随手捣鼓了一下就打开地图。</p>
+<p>“居然还有信号吗？”我凑过去看，两颗脑袋挤在了一起。</p>
+<p>“你猜。”他故意卖关子，把通讯器高高举起来。</p>
+<p>这个夏以昼，怎么这么坏。</p>
+<p>但我不会承认的，其实我是真的真的——还想上网。</p>
+<p>我心急地扒拉着他，一蹦一跳的：“哥哥，求求你了，你就告诉我吧！”</p>
+<p>“还算有个求人的样子。”</p>
+<p>夏以昼似乎很受用，笑着把通讯器放下来，但马上又用另一只空着的手敲了敲我的脑袋：“有信号，是军用的。咳.......可不能拿来娱乐。”</p>
+<p>他怎么知道我心里在想什么！</p>
+<p>“那也不能敲我的脑袋！会变笨的！”</p>
+<p>气急败坏的我抢过他的通讯器，开始对着上面的地图划来划去。</p>
+<p>原本代表城市的光点已经暗下去大半，只剩下极少数区域仍然亮着。</p>
+<p>最北端，有一个孤零零的标记。</p>
+<p>“这就是你说的基地吗？”</p>
+<p>“当然，哥哥什么时候骗过你。这是诺森基地，目前已知还在运行的避难区之一。”</p>
+<p>我盯着那个遥远的坐标。</p>
+<p>从这里到北欧，中间隔着数千公里。</p>
+<p>如果是以前，那不过是十几个小时的航班。</p>
+<p>可在末世，这数千公里有意味着什么呢？</p>
+<p>“好远啊，我们要去那里？”我有点害怕，又一次向他确认。</p>
+<p>“嗯，就把它当作是，和哥哥的一场旅行。”</p>
+<p>夏以昼看向我：“除非妹妹大人还有更好的目的地。哥哥可是担心你没地方上网呢。”</p>
+<p>我脸一红：“我才没有想上网。”</p>
+<p>嘴上否认得很快，可惜声音里的心虚一点说服力都没有。</p>
+<p>夏以昼看着我，没有拆穿，只是弯了弯嘴角，眼底的笑意更浓了：“嗯，没有。”</p>
+<p>“夏以昼，你这个语气是什么意思？”</p>
+<p>“没什么意思。”</p>
+<p>“你明明就是不相信我。”</p>
+<p>“哥哥当然相信你。”</p>
+<p>“真的吗？”</p>
+<p>“真的。”</p>
+<p>夏以昼点头，认真得像是在回答什么重要的问题：“哥哥相信，我的妹妹只是想在末世里保持一点正常生活。”</p>
+<p>我张了张嘴。</p>
+<p>好像……也没什么问题。</p>
+<p>“而且。”他重新拿回通讯器，低头查看航线：“如果真的到了诺森基地，应该会有稳定的通讯网络。你看，这里有几个信号塔......”</p>
+<p>“真的吗？”</p>
+<p>我一下子凑过去。</p>
+<p>夏以昼侧头看我，眼底带着一点笑意：“刚才是谁说自己不在乎网络？”</p>
+<p>“……”</p>
+<p>我沉默了一秒。</p>
+<p>“我只是确认一下幸存者基地的基础设施。”</p>
+<p>“哦。”</p>
+<p>“这是很重要的信息。”</p>
+<p>“嗯。”</p>
+<p>“关系到人类文明能不能延续。”</p>
+<p>“原来上网这么重要。”</p>
+<p>“夏以昼！”我瞪他。</p>
+<p>他终于忍不住笑出了声。</p>
+<div class="prose-break" aria-hidden="true">✧</div>
+<p>我说不过他，急忙转移话题：“咳咳......不和你说上网的事情了！这一路上肯定有很多危险！”</p>
+<p>紧接着我又对着他比划，手像波浪似的：“比如临空那边的海啸之类的！”</p>
+<p>夏以昼看着我，眼底都是纵容，感觉像是在看一只努力张牙舞爪、叽叽喳喳的小动物。</p>
+<p>我耳根一红，声音低了很多：“我说得对不对？”</p>
+<p>“嗯，海啸只是最直观的结果。”他骨节分明的手指划过那些已经暗下去的区域。</p>
+<p>“芯核被过度开采后，释放出的能量开始影响周围环境。不同地区受到的影响不一样。”</p>
+<p>“有些地方出现了大规模的能源失控，城市供能系统在一夜之间崩溃。”</p>
+<p>“有些地方的生态发生了变化，植物异常生长，动物出现变异。”</p>
+<p>“还有一些区域……”</p>
+<p>他停顿了一下。</p>
+<p>“连仪器都无法正常工作。”</p>
+<p>我看着地图上那些被标记为红色的区域。</p>
+<p>它们像是一道道无法跨越的伤口，留在人类曾经最繁荣的土地上。</p>
+<p>“所以，我们一路上可能会遇到——”</p>
+<p>我抢着回答：“废弃城区，失控区域，芯核污染带！”</p>
+<p>夏以昼看向我，伸手刮了刮我的鼻头：“真聪明。”</p>
+<p>“听起来一点都不像旅行。”我小声嘀咕：“和哥哥的旅行，只符合了前缀。”</p>
+<p>“诶呀，那该怎么办呢？只符合了前缀。”他在一旁搭腔。</p>
+<p>“也不是不行，只符合了前缀也很不容易咯，毕竟执舰官的假期可不多。”</p>
+<p>夏以昼摇摇头，无奈地抱起了我，朝飞行器走去。</p>
+<p>“这么说，你还应该感谢末世给哥哥腾出了时间？”</p>
+<p>不待他说完，我就被平平稳稳地放在了飞行器的副驾。</p>
+<p>“那这个假期的代价也太大了！”</p>
+<p>我偷偷抱怨。</p>
+<p>飞行器引擎的轰鸣声很大，但他还是听见了。</p>
+<p>“嗯。”</p>
+<p>“你听见了？”</p>
+<p>“听见了。”</p>
+<p>“那你没有什么别的话想说吗？”</p>
+<p>夏以昼扣好安全带，侧过头看我。</p>
+<p>“因为我的妹妹说得没错。”</p>
+<p>“如果可以选择，我也希望这个假期不是以这样的方式开始。”</p>
+<p>“不过——”</p>
+<p>他伸手替我调整了一下安全带的位置。</p>
+<p>“至少现在，我有机会陪你去看看以前想看的地方。”</p>
+<p>我看着他，突然不知道该说什么。</p>
+<p>明明窗外是一片正在崩坏的世界。</p>
+<p>明明我们正在逃离熟悉的一切。</p>
+<p>可夏以昼总有办法，把那些听起来残酷的事情，说得很好很好。</p>
+<div class="prose-break" aria-hidden="true">✧</div>
+<p>渐渐的，我们飞进了云层。</p>
+<p>我们乘着飞行器，穿过荒芜的大地，越过失去名字的城市，共同度过着从世界尽头偷来的时光。</p>
+<p>到北方去吧。</p>
+<p>这是世界末日之后的第一场旅行。</p>
+<p>只有我和我的哥哥。</p>
+</div>
+</details>
+</div>
+</details>
+</section></main>
+    </div>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 韦雨佳</p>
+    </footer>
+    <script src="script.js?title-117"></script>
+  </body>
+</html>

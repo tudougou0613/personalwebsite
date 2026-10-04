@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Locked Room with Caleb · PotatoDog</title>
+    <meta name="description" content="关于韦雨佳。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?translation-scope-114" />
+  </head>
+  <body class="page-inner page-about page-personal">
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="topbar">
+      <a class="logo" href="index.html">POTATODOG</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="index.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z" />
+          </svg>
+          <span>主页</span>
+        </a>
+        <a href="about.html" aria-current="page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="8" r="3.2" />
+            <path d="M5.5 19.2c1.2-3 4-4.7 6.5-4.7s5.3 1.7 6.5 4.7" />
+          </svg>
+          <span>关于</span>
+        </a>
+        <a href="works.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <rect x="4" y="5" width="16" height="14" rx="2" />
+            <path d="M8 9h8M8 13h5" />
+          </svg>
+          <span>作品</span>
+        </a>
+      </nav>
+      <button class="language-toggle" type="button" aria-label="Switch to English" lang="en">EN</button>
+    </header>
+
+    <div class="banner">
+      <div class="banner-title">
+        <h1 class="about-banner-poem"><span>我们不要在这里，不要被命运找到。</span></h1>
+        <p class="poem-source">— 简媜 ·《相逢在异国的夏日午后》</p>
+      </div>
+      <div class="wave-wrap" aria-hidden="true">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+          <defs>
+            <path id="gentle-wave" d="m -160,44.4 c 30,0 58,-18 87.7,-18 30.3,0 58.3,18 87.3,18 30,0 58,-18 88,-18 30,0 58,18 88,18 l 0,34.5 -351,0 z"></path>
+          </defs>
+          <g class="parallax">
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="0"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="3"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="6"></use>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="layout" id="main">
+      <aside class="sidebar">
+        <img class="avatar" src="assets/avatar-character.jpg" alt="韦雨佳的头像" width="148" height="148" />
+        <h2>韦雨佳</h2>
+        <p class="bio">PhD/Vtuber/Gamer</p>
+        <div class="social-links" aria-label="社交平台">
+          <button class="social-button social-email" type="button" data-copy-email="yujiawei20032001@gmail.com" title="复制邮箱" aria-label="复制邮箱"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg></button>
+          <a class="social-button social-bilibili" href="https://space.bilibili.com/1472623179" target="_blank" rel="noopener noreferrer" title="B站" aria-label="B站"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="3"/><path d="m7 3 3 4m7-4-3 4M8 12v4m8-4v4"/></svg></a>
+          <a class="social-button social-rednote" translate="no" href="https://www.xiaohongshu.com/user/profile/66b4f20d000000001d0315da?xsec_token=ABp3HWjF4RAVb65QNgbdO6PsRhr-Y3VeYA6TBN5Xz-QTk%3D&amp;xsec_source=pc_search" target="_blank" rel="noopener noreferrer" title="小红书" aria-label="小红书"><span aria-hidden="true">小红书</span></a>
+        </div>
+        <div class="sidebar-music" aria-label="音乐播放器">
+          <p class="sidebar-music-title">除了春天爱情和樱花</p>
+          <p class="sidebar-music-artist">HIGH4 · IU</p>
+          <audio autoplay preload="metadata" src="assets/spring-love-cherry-blossoms.mp3"></audio>
+          <div class="music-controls">
+            <button class="music-play" type="button" aria-label="播放" aria-pressed="false">▶</button>
+            <div class="music-adjustments">
+              <div class="music-time" aria-label="播放时间"><span class="music-current">0:00</span><span aria-hidden="true"> / </span><span class="music-duration">--:--</span></div>
+              <label class="music-volume-row"><span class="music-volume-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" stroke-linecap="round"/></svg></span><input class="music-volume" type="range" min="0" max="1" step="0.01" value="0.2" aria-label="音量" /></label>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+
+      <main class="content about-detail"><a class="back-to-about" href="works.html">← 返回作品</a><section class="article about-panel game-project-detail">
+<p class="about-kicker">MARINEPUP STUDIO / GAME PROJECT</p>
+<h2>Locked Room with Caleb</h2>
+<p class="lead">一款像素解谜同人游戏。简而言之，这是一个找不到线索就无法出去的房间。但是当你找齐了所有线索，你还会选择出去吗？</p>
+<a class="game-itch-text-link" href="https://marinepup.itch.io/locked-room-with-caleb" target="_blank" rel="noopener">前往 itch.io 游戏页面 <span aria-hidden="true">↗</span></a>
+<a class="game-itch-text-link" style="margin-left: 20px;" href="https://www.bilibili.com/video/BV13rMNzuEXM/" target="_blank" rel="noopener">观看游戏 PV <span aria-hidden="true">↗</span></a>
+<figure class="game-screen game-main-screen"><img src="assets/caleb-menu.png" alt="Locked Room with Caleb 主菜单" width="1268" height="702" /><figcaption>这是一切开始的地方。但是做UI和排版非常苦手，比简单的画画难多了。我在想是不是要点亮这方面的技能树？</figcaption></figure>
+<div class="game-screens"><figure class="game-screen"><img src="assets/caleb-scene-1.png" alt="像素房间中的角色互动与解谜界面" width="1254" height="702" loading="lazy" /><figcaption>这是开始寻找线索以后的视角，这是我第一次画这么多像素，数格子数得眼睛要瞎了；Marineball非常贴心地为手机端做了交互，让很多没有PC的姐妹玩到了这款游戏。</figcaption></figure><figure class="game-screen"><img src="assets/caleb-scene-2.png" alt="夜色中的像素场景与角色对话" width="1004" height="664" loading="lazy" /><figcaption>我足足画了7个像素场景，不同场景里的人物，包括立绘，都有新的衣服穿，非常自豪地能画上制服。</figcaption></figure></div>
+<h3>关于这个项目</h3>
+<p>与Marineball@白晏迟合作成立了MarinePup Studio，是我作为独立游戏制作人的开始。</p>
+<p>还记得决定做这个项目的那一天，是我第一次去她家里做客，吃的是隆德少有的好吃的中国菜。在那一天之前，她给我看了她自己做的视觉小说，我非常喜欢里面的文笔与情感，在吃饭的时候就告诉了她。</p>
+<p>后来，两个人像龙场悟道一般，拍板决定要做这么一个游戏！而且幸运的是，这个游戏并不是一切的终点......</p>
+<section class="game-merch" aria-label="游戏周边">
+<div class="game-merch-gallery">
+<figure><img src="assets/caleb-merch-1.jpeg" alt="像素场景立牌" width="768" height="1024" loading="lazy" /><figcaption>像素场景立牌</figcaption></figure>
+<figure><img src="assets/caleb-merch-4.jpeg" alt="钥匙扣" width="768" height="1024" loading="lazy" /><figcaption>钥匙扣</figcaption></figure>
+<figure><img src="assets/caleb-merch-3.jpeg" alt="贴纸包" width="768" height="1024" loading="lazy" /><figcaption>贴纸包</figcaption></figure>
+<figure><img src="assets/caleb-merch-2.jpeg" alt="贴纸" width="768" height="1024" loading="lazy" /><figcaption>贴纸</figcaption></figure>
+<figure><img src="assets/caleb-merch-5.jpeg" alt="明信片" width="768" height="1024" loading="lazy" /><figcaption>明信片</figcaption></figure>
+</div>
+</section>
+<p>我们还做了关于游戏的周边，看着这些小物，仿佛宣发的那几天像梦一般。我们非常忐忑、期待着大家对游戏的评价（但是好像最后结算并没有发财......就卖了几个子儿，感觉自己也是白日梦想家了。）</p>
+<p>在未来，MarinePup Studio和她们的游戏一定还会再出现的（认真）。</p>
+<div class="memory-divider personal-divider" aria-hidden="true"><span>❀</span></div>
+<p>我还用这个游戏素材做了配套的桌宠，除了陪伴以外我创新地加入了简单的占卜功能，解决选择困难症功能，番茄钟功能......感觉用处比那些只会在桌面上繁殖的桌宠大了很多kk</p>
+<a class="game-itch-text-link" href="https://potatodogqaq.itch.io/deskpat" target="_blank" rel="noopener">在 itch.io 下载我的桌宠 <span aria-hidden="true">↗</span></a>
+<div class="personal-farewell"><span class="farewell-star" aria-hidden="true">✧</span><p><strong>夏天终于成为了我生命中不可剥离的一部分。</strong></p></div>
+</section></main>
+    </div>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 韦雨佳</p>
+    </footer>
+    <script src="script.js?title-117"></script>
+  </body>
+</html>

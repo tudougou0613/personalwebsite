@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About · PotatoDog</title>
+    <meta name="description" content="关于韦雨佳。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?translation-scope-114" />
+  </head>
+  <body class="page-inner page-about">
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="topbar">
+      <a class="logo" href="index.html">POTATODOG</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="index.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z" />
+          </svg>
+          <span>主页</span>
+        </a>
+        <a href="about.html" aria-current="page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="8" r="3.2" />
+            <path d="M5.5 19.2c1.2-3 4-4.7 6.5-4.7s5.3 1.7 6.5 4.7" />
+          </svg>
+          <span>关于</span>
+        </a>
+        <a href="works.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <rect x="4" y="5" width="16" height="14" rx="2" />
+            <path d="M8 9h8M8 13h5" />
+          </svg>
+          <span>作品</span>
+        </a>
+      </nav>
+      <button class="language-toggle" type="button" aria-label="Switch to English" lang="en">EN</button>
+    </header>
+
+    <div class="banner">
+      <div class="banner-title">
+        <h1 class="about-banner-poem"><span>一个在黑暗中醒着，一个在光明中睡着。</span><span class="poem-final">我是烈火，也是枯枝。</span></h1>
+        <p class="poem-source">— 纪伯伦 ·《沙与沫》</p>
+      </div>
+      <div class="wave-wrap" aria-hidden="true">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+          <defs>
+            <path id="gentle-wave" d="m -160,44.4 c 30,0 58,-18 87.7,-18 30.3,0 58.3,18 87.3,18 30,0 58,-18 88,-18 30,0 58,18 88,18 l 0,34.5 -351,0 z"></path>
+          </defs>
+          <g class="parallax">
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="0"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="3"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="6"></use>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="layout" id="main">
+      <aside class="sidebar">
+        <img class="avatar" src="assets/avatar-character.jpg" alt="韦雨佳的头像" width="148" height="148" />
+        <h2>韦雨佳</h2>
+        <p class="bio">PhD/Vtuber/Gamer</p>
+        <div class="social-links" aria-label="社交平台">
+          <button class="social-button social-email" type="button" data-copy-email="yujiawei20032001@gmail.com" title="复制邮箱" aria-label="复制邮箱"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg></button>
+          <a class="social-button social-bilibili" href="https://space.bilibili.com/1472623179" target="_blank" rel="noopener noreferrer" title="B站" aria-label="B站"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="3"/><path d="m7 3 3 4m7-4-3 4M8 12v4m8-4v4"/></svg></a>
+          <a class="social-button social-rednote" translate="no" href="https://www.xiaohongshu.com/user/profile/66b4f20d000000001d0315da?xsec_token=ABp3HWjF4RAVb65QNgbdO6PsRhr-Y3VeYA6TBN5Xz-QTk%3D&amp;xsec_source=pc_search" target="_blank" rel="noopener noreferrer" title="小红书" aria-label="小红书"><span aria-hidden="true">小红书</span></a>
+        </div>
+        <div class="sidebar-music" aria-label="音乐播放器">
+          <p class="sidebar-music-title">除了春天爱情和樱花</p>
+          <p class="sidebar-music-artist">HIGH4 · IU</p>
+          <audio autoplay preload="metadata" src="assets/spring-love-cherry-blossoms.mp3"></audio>
+          <div class="music-controls">
+            <button class="music-play" type="button" aria-label="播放" aria-pressed="false">▶</button>
+            <div class="music-adjustments">
+              <div class="music-time" aria-label="播放时间"><span class="music-current">0:00</span><span aria-hidden="true"> / </span><span class="music-duration">--:--</span></div>
+              <label class="music-volume-row"><span class="music-volume-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" stroke-linecap="round"/></svg></span><input class="music-volume" type="range" min="0" max="1" step="0.01" value="0.2" aria-label="音量" /></label>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+
+      <main class="content about-cards">
+        <h2 class="section-title">关于我的两个档案</h2>
+        <article class="about-entry">
+          <a class="about-entry-cover academic-cover" href="academic.html" aria-label="阅读学术档案"><img src="assets/academic-bristol.jpeg" alt="布里斯托大学校门" /></a>
+          <div class="about-entry-body"><svg class="archive-sprinkles" viewBox="0 0 150 100" fill="none" aria-hidden="true"><path d="M99 91C92 63 100 34 128 10M102 58C82 61 67 49 65 35c20-3 36 8 37 23ZM109 39c1-17 14-27 30-25-2 16-12 26-30 25ZM99 77c-20 2-32-8-35-22 17-2 31 6 35 22Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M34 21c-5-7-12-4-10 3-8-1-10 7-3 10-5 6 1 12 7 8 3 8 11 5 10-2 8 2 12-6 5-10 5-5 0-11-9-9Z" stroke="currentColor" stroke-width="1.2"/><circle cx="32" cy="31" r="3" fill="currentColor"/><circle cx="44" cy="76" r="2" fill="currentColor"/></svg><span class="academic-musing"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5.5C9 3.8 5.5 3.6 3 4.5v14c2.5-.9 6-.7 9 1 3-1.7 6.5-1.9 9-1v-14c-2.5-.9-6-.7-9 1Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 5.5v14M6 8l3 .5M6 11l3 .5M15 8.5l3-.5M15 11.5l3-.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>理想之火燎原时，想过改变世界</span><h2><a href="academic.html">学术档案</a></h2><p>关于我的学习经历，研究方向以及想要解答的问题</p><a class="about-read" href="academic.html">阅读详情 <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="about-entry personal-entry">
+          <a class="about-entry-cover personal-cover" href="personal.html" aria-label="阅读生活档案"><img src="assets/personal-bears.jpeg" alt="并排坐着的两只小熊" /></a>
+          <div class="about-entry-body"><svg class="archive-sprinkles" viewBox="0 0 150 100" fill="none" aria-hidden="true"><path d="M97 54C69 11 42 29 58 53c7 10 23 11 39 1ZM97 54c18-47 45-36 35-11-5 12-20 17-35 11ZM97 54c-32-7-35 22-15 24 10 1 14-11 15-24ZM97 54c27-14 38 11 20 18-9 4-16-5-20-18ZM96 47l7 25M96 47l-8-9M96 47l3-12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 25v9m-4.5-4.5h9M40 76v7m-3.5-3.5h7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><circle cx="61" cy="14" r="2" fill="currentColor"/></svg><span class="academic-musing personal-musing"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 9.4l6.1-.9L12 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>学术之外，作为土豆狗</span><h2><a href="personal.html">生活档案</a></h2><p>关于Vtuber、Gamer，以及地球Online里的点滴日常</p><a class="about-read" href="personal.html">阅读详情 <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 韦雨佳</p>
+    </footer>
+    <script src="script.js?title-117"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Works · PotatoDog</title>
+    <meta name="description" content="魏瑜嘉的作品。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?translation-scope-114" />
+  </head>
+  <body class="page-inner page-about page-works">
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="topbar">
+      <a class="logo" href="index.html">POTATODOG</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="index.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z" />
+          </svg>
+          <span>主页</span>
+        </a>
+        <a href="about.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="8" r="3.2" />
+            <path d="M5.5 19.2c1.2-3 4-4.7 6.5-4.7s5.3 1.7 6.5 4.7" />
+          </svg>
+          <span>关于</span>
+        </a>
+        <a href="works.html" aria-current="page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <rect x="4" y="5" width="16" height="14" rx="2" />
+            <path d="M8 9h8M8 13h5" />
+          </svg>
+          <span>作品</span>
+        </a>
+      </nav>
+      <button class="language-toggle" type="button" aria-label="Switch to English" lang="en">EN</button>
+    </header>
+
+    <div class="banner">
+      <div class="banner-title">
+        <h1 class="about-banner-poem"><span>我的心是旷野的鸟。</span></h1>
+        <p class="poem-source">— 泰戈尔 ·《园丁集》</p>
+      </div>
+      <div class="wave-wrap" aria-hidden="true">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+          <defs>
+            <path id="gentle-wave" d="m -160,44.4 c 30,0 58,-18 87.7,-18 30.3,0 58.3,18 87.3,18 30,0 58,-18 88,-18 30,0 58,18 88,18 l 0,34.5 -351,0 z"></path>
+          </defs>
+          <g class="parallax">
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="0"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="3"></use>
+            <use href="#gentle-wave" xlink:href="#gentle-wave" x="50" y="6"></use>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="layout" id="main">
+      <aside class="sidebar">
+        <img class="avatar" src="assets/avatar-character.jpg" alt="韦雨佳的头像" width="148" height="148" />
+        <h2>韦雨佳</h2>
+        <p class="bio">PhD/Vtuber/Gamer</p>
+        <div class="social-links" aria-label="社交平台">
+          <button class="social-button social-email" type="button" data-copy-email="yujiawei20032001@gmail.com" title="复制邮箱" aria-label="复制邮箱"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg></button>
+          <a class="social-button social-bilibili" href="https://space.bilibili.com/1472623179" target="_blank" rel="noopener noreferrer" title="B站" aria-label="B站"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="3"/><path d="m7 3 3 4m7-4-3 4M8 12v4m8-4v4"/></svg></a>
+          <a class="social-button social-rednote" translate="no" href="https://www.xiaohongshu.com/user/profile/66b4f20d000000001d0315da?xsec_token=ABp3HWjF4RAVb65QNgbdO6PsRhr-Y3VeYA6TBN5Xz-QTk%3D&amp;xsec_source=pc_search" target="_blank" rel="noopener noreferrer" title="小红书" aria-label="小红书"><span aria-hidden="true">小红书</span></a>
+        </div>
+        <div class="sidebar-music" aria-label="音乐播放器">
+          <p class="sidebar-music-title">除了春天爱情和樱花</p>
+          <p class="sidebar-music-artist">HIGH4 · IU</p>
+          <audio autoplay preload="metadata" src="assets/spring-love-cherry-blossoms.mp3"></audio>
+          <div class="music-controls">
+            <button class="music-play" type="button" aria-label="播放" aria-pressed="false">▶</button>
+            <div class="music-adjustments">
+              <div class="music-time" aria-label="播放时间"><span class="music-current">0:00</span><span aria-hidden="true"> / </span><span class="music-duration">--:--</span></div>
+              <label class="music-volume-row"><span class="music-volume-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" stroke-linecap="round"/></svg></span><input class="music-volume" type="range" min="0" max="1" step="0.01" value="0.2" aria-label="音量" /></label>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="content">
+        <h2 class="section-title">全部作品</h2>
+        <div class="posts">
+          <article class="post" id="work-1">
+            <a class="post-cover caleb-work-cover" href="locked-room.html" aria-label="查看 Locked Room with Caleb"><img src="assets/locked-room-caleb.png" alt="Locked Room with Caleb：角色与金色锁的插画" width="428" height="402" /></a>
+            <div class="post-body">
+              <div class="meta"><span class="chip">游戏项目</span></div>
+              <h3><a href="locked-room.html">Locked Room with Caleb</a></h3>
+              <p>一款像素解谜同人游戏，我的主要角色是策划、美工与文案；与@白晏迟合作成立了MarinePup Studio，是我作为独立游戏制作人的开始。</p>
+              <svg class="game-card-decoration" viewBox="0 0 200 140" fill="none" aria-hidden="true"><path d="M52 43c12-7 24-5 48-5s36-2 48 5c12 8 20 31 22 51 2 17-10 25-22 17l-21-18H73l-21 18c-12 8-24 0-22-17 2-20 10-43 22-51Z" stroke="currentColor" stroke-width="3"/><path d="M59 57v26M46 70h26" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle cx="138" cy="61" r="4" fill="currentColor"/><circle cx="150" cy="73" r="4" fill="currentColor"/><circle cx="126" cy="73" r="4" fill="currentColor"/><circle cx="138" cy="85" r="4" fill="currentColor"/><path d="M93 69h14M93 77h14M100 38V22c0-9 9-12 17-12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="m20 34 3-8 3 8 8 3-8 3-3 8-3-8-8-3Z" stroke="currentColor" stroke-width="2"/><circle cx="179" cy="104" r="4" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+          </article>
+          <article class="post" id="work-2">
+            <a class="post-cover portfolio-cover" href="portfolio.html" aria-label="查看我的作品集"><img src="assets/portfolio-cover-chibi.jpeg" alt="银发猫耳角色插画" width="886" height="886" loading="lazy" /></a>
+            <div class="post-body">
+              <div class="meta">
+                <span class="chip">写作</span>
+                <span class="chip">绘画</span>
+              </div>
+              <h3 style="font-family: 'PingFang SC', 'Microsoft YaHei', 'Heiti SC', sans-serif; font-weight: 700;"><a href="portfolio.html">我的作品集</a></h3>
+              <p>我是没正经学过写作的写手和没正经学过画画的小画师。</p>
+<svg class="art-card-decoration" viewBox="0 0 200 140" fill="none" aria-hidden="true"><path d="M103 22c-40-3-72 23-73 55-1 29 24 47 50 44 13-2 20-10 14-19-5-8-2-16 8-17 13-1 23 10 38 3 23-11 22-40-2-55-10-7-23-10-35-11Z" stroke="currentColor" stroke-width="3"/><circle cx="60" cy="68" r="8" fill="currentColor" opacity=".5"/><circle cx="80" cy="44" r="8" fill="currentColor" opacity=".7"/><circle cx="112" cy="43" r="8" fill="currentColor" opacity=".4"/><circle cx="136" cy="61" r="7" fill="currentColor" opacity=".6"/><path d="m124 112 42-62 7 5-42 63-12 7Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="m178 24 3-8 3 8 8 3-8 3-3 8-3-8-8-3Z" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+          </article>
+          <article class="post" id="work-3">
+            <div class="post-cover esports-work-cover"><img src="assets/our-game-cover.jpeg" alt="Our Game Begins Today：BLUE GAMING 战队角色展示" width="1182" height="665" loading="lazy" /></div>
+            <div class="post-body">
+              <div class="meta">
+                <span class="chip">进行中</span>
+              </div>
+              <h3 style="font-family: 'PingFang SC', 'Microsoft YaHei', 'Heiti SC', sans-serif; font-weight: 700; color: var(--shoka);">Our Game Begins Today</h3>
+              <p>从今天开始成为职业选手。简而言之是MarinePup Studio的第二个作品，是一个电竞向的游戏。但是现在由于缺乏剧情灵感缓慢进行中......写手自觉滚去看100场LPL比赛。</p>
+              <svg class="esports-card-decoration" viewBox="0 0 200 140" fill="none" aria-hidden="true"><rect x="28" y="22" width="125" height="76" rx="7" stroke="currentColor" stroke-width="3"/><path d="M29 84h123M90 99v15M69 115h42" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="m45 124 9-9h77l9 9H45Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="m93 37-14 22h15l-6 17 22-27H96l7-12Z" fill="currentColor" opacity=".65"/><rect x="164" y="99" width="14" height="23" rx="7" stroke="currentColor" stroke-width="2.5"/><path d="M171 100v6M160 18l3-8 3 8 8 3-8 3-3 8-3-8-8-3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+          </article>
+        </div>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 韦雨佳</p>
+    </footer>
+    <script src="script.js?title-117"></script>
+  </body>
+</html>
